@@ -1,0 +1,96 @@
+/* body, div.blur {
+	/* background-image: url('https://www.hdwallpapers.in/download/digital_space_universe_4k_8k-3840x2160.jpg'); */
+    /* background-color: #6666FF;}  */
+    body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+        height: 100vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+
+
+
+.opera {
+    color: azure;
+    margin-top: 200px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+
+h1 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+button:hover {
+    width: 90px;
+    margin: 7px;
+    width: 130px;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4CAF50;
+}
+
+button {
+    width: 90px;
+    margin: 7px;
+    width: 130px;
+    padding: 12px;
+    border-radius: 14px;
+    border: none;
+    background-color: #7aeb34;
+    color: white;
+}
+
+
+
+h2{
+font-size: 50px;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+.buttona {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#resaid{
+    background-color: red;
+}
+
+#rapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#resaid:hover {
+    background-color: black;
+}
+
+#save-el {
+    margin-top: 40px;
+}
